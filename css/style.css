@@ -309,7 +309,7 @@ nav {
   align-items: center;
   /* gap: 100px; */
   text-align: right;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .overview-title {
@@ -345,8 +345,31 @@ nav {
   position: absolute;
   left: 0;
   bottom: 0;
+  object-fit: cover;
 }
 
+/* game overview 2nd item styles  */
+.game-item:first-child {
+  flex-basis: 50%;
+}
+.game-item:last-child {
+  flex-basis: 40%;
+  text-align: left;
+}
+.game-item .right-thumb {
+  position: relative;
+  padding: 0px 94px 64px 0;
+}
+.right-thumb .img-large {
+  width: 100%;
+}
+.right-thumb .img-right {
+  max-width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
 /* More Games section Styles */
 #more-games {
   position: relative;
@@ -514,6 +537,14 @@ footer h3 {
     flex-direction: column;
     text-align: center;
     padding: 0px 20px;
+  }
+  .game-item:last-child {
+    flex-basis: 40%;
+    text-align: center;
+    order: 1;
+  }
+  .game-item:first-child {
+    order: 2;
   }
   /* .game-overview-item {
     flex-basis: 10%;
