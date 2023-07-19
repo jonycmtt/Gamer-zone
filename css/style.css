@@ -466,6 +466,9 @@ footer h3 {
     background-size: 536px 471px;
     padding: 50px 0;
   }
+  .banner-item .banner-img {
+    padding: 0 30px;
+  }
   nav,
   .hero-banner {
     padding: 30px 80px;
@@ -510,6 +513,7 @@ footer h3 {
     gap: 50px;
     flex-direction: column;
     text-align: center;
+    padding: 0px 20px;
   }
   /* .game-overview-item {
     flex-basis: 10%;
@@ -523,6 +527,7 @@ footer h3 {
     background-position: bottom center;
     background-size: 536px 471px;
     padding: 50px 0;
+    padding: 0 30px;
   }
   #games-video {
     padding: 30px 60px;
