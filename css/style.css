@@ -552,7 +552,6 @@ footer h3 {
     justify-content: flex-start;
     gap: 11px 5px;
     grid-template-columns: repeat(3, 1fr);
-    padding: 50px 0 0;
   }
   .game-info {
     gap: 6px;
