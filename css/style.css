@@ -216,7 +216,7 @@ nav {
   font-weight: 700;
 }
 /* games video  */
-#games-video {
+#games-update-video {
   width: 100%;
   padding: 60px 0;
 }
@@ -570,7 +570,7 @@ footer h3 {
     padding: 50px 0;
     padding: 0 30px;
   }
-  #games-video {
+  #games-update-video {
     padding: 30px 60px;
   }
   .footer-nav,
@@ -674,7 +674,7 @@ footer h3 {
   .brand {
     margin: 20px 0;
   }
-  #games-video {
+  #games-update-video {
     padding: 30px 20px;
   }
 }
