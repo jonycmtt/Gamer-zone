@@ -668,9 +668,3 @@ footer h3 {
     padding: 30px 20px;
   }
 }
-
-@media (max-width: 482px) {
-  .more-games-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
