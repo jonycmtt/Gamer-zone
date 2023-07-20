@@ -97,6 +97,10 @@ nav {
 .nav-link {
   font-size: 1.1rem;
   font-weight: 500;
+  transition: 0.4s all ease;
+}
+.nav-link:hover {
+  color: var(--secondary-color);
 }
 .follow-item {
   display: flex;
